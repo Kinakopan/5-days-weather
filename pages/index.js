@@ -132,11 +132,11 @@ export default function Home() {
           </p>
           <div>
             <a
-              href=""
+              href="https://github.com/Kinakopan?tab=repositories"
               target="_blank"
               rel="noopener noreferrer"
             >
-              By{' '} Mio
+              By{' '}Mio
             </a>
           </div>
         </div>
