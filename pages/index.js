@@ -6,7 +6,7 @@ import axios from 'axios';
 
 export default function Home() {
 
-  const apiKey = "f8dd8d1c4616bac51ea283749a4acee5";
+  const apiKey = process.env.API_KEY;
   const location = "vancouver";
   const units = "metric";
 
@@ -125,6 +125,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
+
           <p>
             Vancouver, B.C. Weather; <br/>
             Last Updates: {date}
