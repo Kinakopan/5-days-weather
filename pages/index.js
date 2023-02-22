@@ -10,7 +10,7 @@ export default function Home() {
   const location = "vancouver";
   const units = "metric";
 
-  const url = `https://api.openweathermap.org/data/2.5/forecast?q=${location}&units=${units}&appid=${apiKey}&api_key=${apiKey}`;//1. first line of "Examples of API calls" in the doc, 2. add "q=${location}"", 3. add "&units=${units}"", 4. add "&appid=${apiKey}""
+  const url = `https://api.openweathermap.org/data/2.5/forecast?q=${location}&units=${units}&appid=${apiKey}`;//1. first line of "Examples of API calls" in the doc, 2. add "q=${location}"", 3. add "&units=${units}"", 4. add "&appid=${apiKey}""
 
   const [data, setData] = useState();
   const grabWeather = useRef(false);
